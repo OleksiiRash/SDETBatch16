@@ -22,7 +22,6 @@ public class Variables {
         String myCountry = "Spain";
         String myPhoneNumber = "+34457845124";
         boolean myCitizenshipStatus = false;
-        String divider = "-------------------------------------------------------";
 
         System.out.println("My name is" + " " + myName + " " + "and my last name is" + " " + lastName);
         System.out.println("I am" + " " + myGrade + " " + "student");
@@ -37,6 +36,7 @@ public class Variables {
 
         // Task 3: Change student’s city, state, phone number and grade. And print those updated values
 
+        String divider = "-------------------------------------------------------";
         myGrade = 'A'; // Task 3: updated data
         myCity = "Valencia"; // Task 3: updated data
         myPhoneNumber = "+34457845245"; // Task 3: updated data
