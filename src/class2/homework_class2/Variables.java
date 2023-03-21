@@ -42,6 +42,7 @@ public class Variables {
         myPhoneNumber = "+34457845245"; // Task 3: updated data
 
         System.out.println(divider);
-        System.out.println("My name is" + " " + myName + " " + "and I moved to new city" + " " + myCity + " " + "and my new phone number is:" + " " + myPhoneNumber);
+        System.out.println("My name is" + " " + myName + ", " + "and I moved to new city" + " " + myCity + ". " +
+                "I am" + " " + myGrade + " " + "student" + " " + "and my new phone number is:" + " " + myPhoneNumber);
     }
 }
