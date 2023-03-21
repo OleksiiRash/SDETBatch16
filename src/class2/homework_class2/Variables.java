@@ -41,8 +41,13 @@ public class Variables {
         myCity = "Valencia"; // Task 3: updated data
         myPhoneNumber = "+34457845245"; // Task 3: updated data
 
+        /*
+        System.out.println() - adds a newline character at the end of the printed text.
+        System.out.print() - does not.
+         */
+
         System.out.println(divider);
-        System.out.println("My name is" + " " + myName + ", " + "and I moved to new city" + " " + myCity + ". " +
+        System.out.print("My name is" + " " + myName + ", " + "and I moved to new city" + " " + myCity + ". " +
                 "I am" + " " + myGrade + " " + "student" + " " + "and my new phone number is:" + " " + myPhoneNumber);
     }
 }
