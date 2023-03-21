@@ -2,6 +2,7 @@ package class2.homework_class2;
 
 public class VariableValues {
     public static void main(String[] args) {
+
         /*
         Task 1: Create a Java program and name it Variable Values
         In your program declare variables using different ways to store all different primitive data.
