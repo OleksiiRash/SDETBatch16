@@ -1,4 +1,4 @@
-package class2.homework_class2;
+package class2.homework.class2;
 
 public class Variables {
     public static void main(String[] args) {
@@ -49,5 +49,6 @@ public class Variables {
         System.out.println(divider);
         System.out.print("My name is" + " " + myName + ", " + "and I moved to new city" + " " + myCity + ". " +
                 "I am" + " " + myGrade + " " + "student" + " " + "and my new phone number is:" + " " + myPhoneNumber);
+
     }
 }

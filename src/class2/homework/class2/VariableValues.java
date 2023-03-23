@@ -1,4 +1,4 @@
-package class2.homework_class2;
+package class2.homework.class2;
 
 public class VariableValues {
     public static void main(String[] args) {
@@ -34,6 +34,7 @@ public class VariableValues {
         System.out.println(myBankBalance);
         System.out.println(myCitizenshipStatus);
         System.out.println(myFirstInitial);
+
 
     }
 }
