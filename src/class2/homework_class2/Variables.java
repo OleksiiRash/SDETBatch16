@@ -30,9 +30,12 @@ public class Variables {
         System.out.println("My phone number is" + " " + myPhoneNumber);
 
         if (myCitizenshipStatus == true) {
-            System.out.println("And my citizenship status: Spanish nationality not by origin");}
-        if (myCitizenshipStatus == false) {
-            System.out.println("And my citizenship status: Temporary Residence");}
+            System.out.println("And my citizenship status: Spanish nationality not by origin");
+        }
+        else
+        {
+            System.out.println("And my citizenship status: Temporary Residence");
+        }
 
         // Task 3: Change student’s city, state, phone number and grade. And print those updated values
 
