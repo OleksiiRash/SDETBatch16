@@ -5,7 +5,7 @@ public class TemperatureCheck {
 
         double temperature = 31.5;
 
-        if(temperature<32){
+        if(temperature<=32){
             System.out.println("Water will freeze with temperature");
         }
         else {
