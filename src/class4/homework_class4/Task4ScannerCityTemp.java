@@ -16,7 +16,8 @@ public class Task4ScannerCityTemp {
         String city = scan.nextLine();
         System.out.println("What Is Your Temperature?");
         double temperatureF = scan.nextDouble();
-        int temperatureC = (int) ((temperatureF-32)*0.5556);    // To convert temperatures in degrees Fahrenheit to Celsius, subtract 32 and multiply by 0.5556
+        // To convert temperatures in Fahrenheit to Celsius, subtract 32 and multiply by 0.5556
+        int temperatureC = (int) ((temperatureF-32)*0.5556);
 
         System.out.println("The temperature in the city " + city + " is " + temperatureC + " °C");
 
