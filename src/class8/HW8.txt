@@ -1,0 +1,1 @@
+Print numbers from 1 to 50 except those that are divisible by 3
