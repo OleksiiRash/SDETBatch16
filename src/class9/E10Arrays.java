@@ -10,7 +10,7 @@ public class E10Arrays {
 
         System.out.println();
 
-        // Encased for loop, or we can type "iter" - (Encased for loop) or place the curor on the for loop and click the bulb
+        // Enhanced for loop, or we can type "iter" - (Encased for loop) or place the cursor on the for loop and click the bulb
 
         int[] numbersNew = {45, 50, 20, 30, -50, 45};
         for (int j : numbersNew) {
