@@ -1,0 +1,18 @@
+Task 1: Create an array of chars and store grades into it: A,B,C,D.
+Then print a grade B (use 2 different ways of creating an array).
+
+Task 2: Create an array of names and store all names of your group.
+Then print your name from that array. (use 2 different ways of creating an array).
+
+Task 3: Create an array of words: Java, Saturday, day, coding, is.
+Print the following sentence using elements of array: “Saturday is Java coding day”.
+
+Task 4: Create an array of cars and store 6 elements into it.
+Using 2 different loops print all values from the array.
+
+Task 5: Create an array of animals and store 5 elements into it.
+Using 2 different loops print all elements from the array.
+
+Task 6: Create an array on integers and calculate the sum of all elements in an array
+Task 7: From an array of integer elements find the largest number.
+Task 8: Create an array to store char values and then print those in reverse order
