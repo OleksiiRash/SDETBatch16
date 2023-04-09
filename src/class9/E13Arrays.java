@@ -7,10 +7,11 @@ public class E13Arrays {
 
         // Scanner + arrays + encased for loop
 
-        int[] numbers = new int[3]; // here we declare how many numbers we need to ask user
         Scanner scan = new Scanner(System.in);
+        System.out.println("Please enter the int numbers");
+
+        int[] numbers = new int[3]; // here we declare how many numbers we need to ask user
         for (int i = 0; i < numbers.length; i++) {
-            System.out.println("Please enter the int numbers");
             numbers[i] = scan.nextInt();
         }
 

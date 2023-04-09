@@ -5,7 +5,7 @@ public class E10Arrays {
 
         int[] numbers = {45, 50, 20, 30, -50, 45};
         for (int i = 0; i < numbers.length; i++) {
-            System.out.print(numbers[i]);
+            System.out.print(numbers[i] + " ");
         }
 
         System.out.println();
@@ -14,7 +14,7 @@ public class E10Arrays {
 
         int[] numbersNew = {45, 50, 20, 30, -50, 45};
         for (int j : numbersNew) {
-            System.out.print(j);
+            System.out.print(j + " ");
         }
 
 
