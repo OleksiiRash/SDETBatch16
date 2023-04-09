@@ -3,7 +3,7 @@ package class9.homework_class9;
 public class Task7 {
     public static void main(String[] args) {
 
-        // Task 7 From an array of integer elements find the largest number
+        // Task 7: From an array of integer elements find the largest number
 
 
         int[] numbers = {10, 5, 3, 1, 12};
