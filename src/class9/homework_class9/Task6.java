@@ -3,7 +3,7 @@ package class9.homework_class9;
 public class Task6 {
     public static void main(String[] args) {
 
-        // Task 6: Create an array of integers and calculate the sum of all elements in an array
+        // Task 6 Create an array of integers and calculate the sum of all elements in an array
 
         int count = 0;
         int[] n = {2, 3, 1, 4};

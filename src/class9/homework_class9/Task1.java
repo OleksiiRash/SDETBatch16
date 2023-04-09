@@ -5,7 +5,7 @@ public class Task1 {
     public static void main(String[] args) {
 
         /*
-        Task 1: Create an array of chars and store grades into it: A,B,C,D.
+        Task 1 Create an array of chars and store grades into it: A,B,C,D.
         Then print a grade B (use 2 different ways of creating an array).
          */
 

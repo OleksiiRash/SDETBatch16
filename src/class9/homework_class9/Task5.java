@@ -5,7 +5,7 @@ public class Task5 {
     public static void main(String[] args) {
 
         /*
-        Task 5: Create an array of animals and store 5 elements into it.
+        Task 5 Create an array of animals and store 5 elements into it.
         Using 2 different loops print all elements from the array.
          */
 
