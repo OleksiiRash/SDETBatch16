@@ -12,7 +12,7 @@ public class Task4 {
         int [][] numbers = {
                 {1,1,1},
                 {1,1,1},
-                {1,1,1}  // 18 in total
+                {1,1,1}  // 9 in total
         };
 
         int sum = 0;
