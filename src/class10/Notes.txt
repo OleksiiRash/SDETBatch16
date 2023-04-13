@@ -1,0 +1,23 @@
+2D Arrays:
+
+In Java, multidimensional arrays are actually
+arrays of arrays.
+It can have multiple rows and multiple
+columns (also known as matrix form) unlike
+single dimensional array, which can have only
+one full row or one full column.
+----------------------------------------------------------
+Example:
+Data_Type[][] Array_Name = new int[Row_Size][Column_Size];
+----------------------------------------------------------
+Each element in the 2D array must be the same type
+
+Subscripted variables can be use just like available:
+rating[0][3] = 10;
+
+To access all the items in a multidimensional array the technique is to use one loop inside another.
+
+
+
+
+

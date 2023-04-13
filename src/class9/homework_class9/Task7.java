@@ -10,7 +10,8 @@ public class Task7 {
         int largeN = numbers[0]; // 10
         for (int i = 1; i <= numbers.length - 1; i++) {
             if (numbers[i] > largeN) { // 12 > 10 = true
-                largeN = numbers[i]; // here we reassign the value 10 to the largest number 12, as because if = true for the 12
+                // here we reassign the value 10 to the largest number 12, as because if = true for the 12
+                largeN = numbers[i];
             }
         }
         System.out.println(largeN);

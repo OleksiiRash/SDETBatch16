@@ -8,19 +8,19 @@ public class Task3 {
         Print the following sentence using elements of array: “Saturday is Java coding day”.
          */
 
-        String[] words = {"Java", "Saturday", "day", "coding", "is"};
-        System.out.println(words[1] + " " + words[4] + " " + words[0] + " " + words[3] + " " + words[2]);
+        String[] w = {"Java", "Saturday", "day", "coding", "is"};
+        System.out.println(w[1] + " " + w[4] + " " + w[0] + " " + w[3] + " " + w[2]);
 
         System.out.println();
 
-        String[] wordsNew = new String[5];
-        wordsNew[0] = "Java";
-        wordsNew[1] = "Saturday";
-        wordsNew[2] = "day";
-        wordsNew[3] = "coding";
-        wordsNew[4] = "is";
+        String[] wNew = new String[5];
+        wNew[0] = "Java";
+        wNew[1] = "Saturday";
+        wNew[2] = "day";
+        wNew[3] = "coding";
+        wNew[4] = "is";
 
-        System.out.println(wordsNew[1] + " " + wordsNew[4] + " " + wordsNew[0] + " " + wordsNew[3] + " " + wordsNew[2]);
+        System.out.println(wNew[1] + " " + wNew[4] + " " + wNew[0] + " " + wNew[3] + " " + wNew[2]);
 
 
     }

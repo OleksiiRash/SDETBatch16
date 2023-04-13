@@ -1,0 +1,41 @@
+In Java, a ternary operator (also known as a conditional operator)
+is a shorthand way of writing an if-else statement.
+The syntax of a ternary operator is as follows:
+
+---------------------------------------
+condition ? expression1 : expression2
+---------------------------------------
+The condition is a boolean expression that evaluates to either true or false.
+If the condition is true, the operator returns expression1, otherwise it returns expression2.
+
+The ternary operator is often used to assign a value to a variable based on a condition.
+For example, instead of writing a full if-else statement like this:
+---------------------
+int x = 10;
+int y;
+if (x > 5) {
+    y = 1;
+} else {
+    y = 0;
+}
+----------------------
+We can use the ternary operator to write the same code in a more concise way:
+----------------------
+int x = 10;
+int y = (x > 5) ? 1 : 0;
+------------------------
+This code assigns the value 1 to the variable y if x > 5 is true, and assigns the value 0 to y otherwise.
+Ternary operators can also be nested, allowing us to write more complex conditional statements in a concise way.
+For example:
+-------------------------------------
+int x = 10;
+String result = (x > 5) ? ((x < 20) ? "x is between 5 and 20" : "x is greater than or equal to 20") : "x is less than or equal to 5";
+---------------------------------------------------------
+This code assigns a String value to the variable result based on the value of x.
+If x is greater than 5 and less than 20, result will be assigned the String "x is between 5 and 20".
+If x is greater than or equal to 20, result will be assigned the String "x is greater than or equal to 20".
+If x is less than or equal to 5, result will be assigned the String "x is less than or equal to 5".
+
+It's worth noting that while ternary operators can be more concise than if-else statements,
+they can also be less readable if they become too complex.
+It's important to balance conciseness with readability in your code.
