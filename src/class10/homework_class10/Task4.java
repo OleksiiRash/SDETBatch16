@@ -23,8 +23,6 @@ public class Task4 {
         }
         System.out.println("Sum = " + sum + " ");
 
-
-
     }
 }
 

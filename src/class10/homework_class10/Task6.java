@@ -10,9 +10,9 @@ public class Task6 {
 
         String[][] countries = {
 
-                {"United States of America", "Canada", "Mexico", "Jamaica"}, // North America
+                {"USA", "Canada", "Mexico"}, // North America
                 {"Brazil", "Argentina", "Chile", "Colombia"}, // South America
-                {"United Kingdom", "France", "Germany", "Spain"}, // Europe
+                {"UK", "France", "Germany", "Spain"}, // Europe
                 {"China", "Japan", "India", "South Korea"}, // Asia
                 {"Nigeria", "Egypt", "South Africa", "Kenya"} // Africa
         };
