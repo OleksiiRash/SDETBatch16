@@ -18,5 +18,11 @@ public class TypeCasting {
         System.out.println(c2);
         System.out.println(c3);
         System.out.println(c4);
+
+        byte a = 10;
+        byte b = 20;
+        int result = a * b; // type promotion
+        System.out.println(result);
+
     }
 }

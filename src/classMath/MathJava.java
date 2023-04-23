@@ -30,6 +30,14 @@ public class MathJava {
 
         System.out.println();
 
+        char c = 'A';
+        c++; // increment the value
+        System.out.println(c);
+
+        
+
+
+
 
 }
 }

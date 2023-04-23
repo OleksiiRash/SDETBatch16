@@ -1,4 +1,4 @@
-package class12;
+package class11;
 
 public class Students {
     String name;
@@ -9,11 +9,11 @@ public class Students {
 
     void sleep() {
         System.out.println("sleeping");
-    }
+    } // method
     void study() {
         System.out.println("study");
-    }
-    void walk() {
+    } // method
+    void walk() { // method
         System.out.println("walk");
 
     }

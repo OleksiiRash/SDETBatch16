@@ -12,7 +12,6 @@ what is the Syntax for a while loop?
 2) Pay attention to the terms that i use in the class.
 3) Never ever try to write the logic for the complete task in one go sentence by sentence
 
-
 Use a for loop when you know the exact number of iterations you need to execute,
 and use a while loop when you don't know the exact number of iterations,
 but you know the condition that should terminate the loop
