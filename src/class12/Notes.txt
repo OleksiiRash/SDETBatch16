@@ -38,8 +38,8 @@ Methods from the ==String Class==:
 .trim() - we can to remove space before and after the value in order to fix the empty spaces.
 .startsWith() - check the value start from needed value or not. // boolean
 .sentence.trim().toLowerCase() - method chaining, possible in the String Class
-.endsWith()
-.contains()
+.endsWith() // boolean
+.contains() // boolean
 .charAt() - we can perform many operation to count the letters or any other things in the value
 .indexOf('a') & .indexOf('a', 4)) - the last one is start from index 4 to check the 'a'
 .substring(4) - if we need to specify the value of the String from something till the end we can use one starting index only
