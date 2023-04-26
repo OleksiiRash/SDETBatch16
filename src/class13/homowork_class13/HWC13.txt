@@ -1,0 +1,11 @@
+Task1:
+How would you reverse a String word by word? for example:
+        // input=>This is sentence i want to reverse
+        // output=>sihT si ecnetnes i tnaw ot esrever
+
+Task2:
+How would you check if String is palindrome or not? aba=> true
+Abbc => false
+
+Task3:
+How would you swap 2 strings without a temporary variable?

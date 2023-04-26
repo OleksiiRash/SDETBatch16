@@ -44,3 +44,18 @@ Methods from the ==String Class==:
 .indexOf('a') & .indexOf('a', 4)) - the last one is start from index 4 to check the 'a'
 .substring(4) - if we need to specify the value of the String from something till the end we can use one starting index only
 .substring(4, 11) - if we need extract from and to we need to specify 2 indexes
+.replace() & .replaceAll() - we use when we need to replace some special patterns using the regex.
+.split() - we use this method if we need to split the text using some regex + we usually need to store data in the array if we need to count them by indexes
+--------------------------------------
+.toString() - we can use if we need to combine all elements in one String
+
+Example:
+
+StringBuilder sb = new StringBuilder();
+sb.append("The quick brown fox ");
+sb.append("jumps over ");
+sb.append("the lazy dog.");
+
+String sentence = sb.toString(); - method that allow us to convert stringBuilder method to the basic string.
+--------------------------------------
+.reverse() - we have this method only in String Builder class
