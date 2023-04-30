@@ -24,5 +24,7 @@ public class MethodTester {
     objMath.add(1,4);
     objMath.multiply(2,4);
 
+
     }
+
 }
