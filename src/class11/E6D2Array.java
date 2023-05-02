@@ -12,7 +12,7 @@ public class E6D2Array {
                 {10, 8, 6, 4, 2}
         };
 
-        for (int i = 0; i < numbers.length; i++) {
+        for (int i = numbers.length - 1; i >= 0; i--) {
             int sum = 0;
             for (int j = 0; j < numbers[i].length; j++) {
                 sum += numbers[i][j];
