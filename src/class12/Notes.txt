@@ -47,7 +47,7 @@ Methods from the ==String Class==:
 .replace() & .replaceAll() - we use when we need to replace some special patterns using the regex.
 .split() - we use this method if we need to split the text using some regex + we usually need to store data in the array if we need to count them by indexes
 --------------------------------------
-.toString() - we can use if we need to combine all elements in one String
+.toString() - we can use if we need to combine all elements in one String and reconvert from Stringbuilder to the String again
 
 Example:
 

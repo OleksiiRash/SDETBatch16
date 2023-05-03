@@ -68,6 +68,43 @@ when we should use instance variables:
 when we should use static variables:
     1) when we want to share something globally in all the classes methods blocks of code.
     2) Mostly used to create constants like no of months no of days value of PI value of G etc.
+    -----------------------------------------------------------------------------------------------
+    In Java, there are four types of methods based on their return type and parameter list:
+
+    1. "Void" Method with no return value and no parameter:
+    public void printHelloWorld() {}
+
+    2. Method with a return value and no parameter:
+    public int getRandomNumber() {}
+
+    3. Method with no return value but with parameters:
+    public void printFullName(String firstName, String lastName) {}
+
+    4. Method with a return value and parameters:
+    public int addNumbers(int num1, int num2) {}
+    -----------------------------------------------------------------------------------------------
+    In Java, there are four access modifiers that can be applied to methods:
+
+    1. Public methods can be accessed from any class in any package.
+    2. Private methods, on the other hand, can only be accessed within the same class.
+    3. Protected methods can be accessed from classes in the same package or subclasses in other packages.
+    4. Default (no modifier) methods can be accessed from classes in the same package.
+    -----------------------------------------------------------------------------------------------
+    In Java, there are three types of variables: local, instance, and static variables.
+
+    1. Local variables are declared inside a method or a block, and their scope is limited to the method or block in which they are declared.
+    Local variables must be initialized before they can be used.
+
+    2. Instance variables are declared inside a class but inside methods or blocks.
+    Each object of the class has its own copy of the instance variables, which can be accessed and modified using the object reference.
+    Instance variables are initialized to their default values when an object is created.
+
+    3. Static variables are also declared inside a class but outside any method or block, and they are marked with the keyword "static".
+    Unlike instance variables, static variables are shared among all objects of the class.
+    Static variables are initialized to their default values when the class is loaded into the JVM.
+    Static variables can be accessed using the class name or the object reference.
+
+
 
 
 
