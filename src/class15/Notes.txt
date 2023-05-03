@@ -71,17 +71,17 @@ when we should use static variables:
     -----------------------------------------------------------------------------------------------
     In Java, there are four types of methods based on their return type and parameter list:
 
-    1. "Void" Method with no return value and no parameter:
-    public void printHelloWorld() {}
+    1. void Method with no return value and no parameter:
+    Example: public void printHelloWorld() {}
 
     2. Method with a return value and no parameter:
-    public int getRandomNumber() {}
+    Example: public int getRandomNumber() {}
 
     3. Method with no return value but with parameters:
-    public void printFullName(String firstName, String lastName) {}
+    Example: public void printFullName(String firstName, String lastName) {}
 
     4. Method with a return value and parameters:
-    public int addNumbers(int num1, int num2) {}
+    Example: public int addNumbers(int num1, int num2) {}
     -----------------------------------------------------------------------------------------------
     In Java, there are four access modifiers that can be applied to methods:
 
