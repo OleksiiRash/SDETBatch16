@@ -42,11 +42,16 @@ Methods from the ==String Class==:
 .contains() // boolean
 .charAt() - we can perform many operation to count the letters or any other things in the value
 .indexOf('a') & .indexOf('a', 4)) - the last one is start from index 4 to check the 'a'
+----------------------------------------------
 .substring(4) - if we need to specify the value of the String from something till the end we can use one starting index only
 .substring(4, 11) - if we need extract from and to we need to specify 2 indexes
+----------------------------------------------
 .replace() & .replaceAll() - we use when we need to replace some special patterns using the regex.
+----------------------------------------------
 .split() - we use this method if we need to split the text using some regex + we usually need to store data in the array if we need to count them by indexes
---------------------------------------
+----------------------------------------------
+.valueOf() - usefully method if we need to send the value of int for example to a String, convert to a string to perform some operations
+ --------------------------------------
 .toString() - we can use if we need to combine all elements in one String and reconvert from Stringbuilder to the String again
 
 Example:

@@ -5,7 +5,7 @@ import com.sun.tools.javac.Main;
 public class Task1 {
 
 /*
-Task1:
+Task1_C16:
 Create a method that will say Hello in different language
 based on the country that will be passed when method is executed.
  */
