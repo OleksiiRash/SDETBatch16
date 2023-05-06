@@ -16,16 +16,22 @@ Explanation: The answer is "wke", with the length of 3.
 Notice that the answer must be a substring, "pwke" is a subsequence and not a substring.
 */
 
-    public String lengthOfLongestSubstring(String s) {
-        String newS = "new";
-        newS=s;
-        return newS;
-}
+    public static int lengthOfLongestSubstring(String s) {
+        int n = s.length();
+        int ans = 0;
+        int[] index = new int[128]; // 128 is the number of ASCII characters
 
+        for (int j = 0, i = 0; j < n; j++) {
+            i = Math.max(index[s.charAt(j)], i);
+            ans = Math.max(ans, j - i + 1);
+            index[s.charAt(j)] = j + 1;
+        }
+        return ans;
+    }
 
     public static void main(String[] args) {
         LeetCode obj = new LeetCode();
         String s = "abcabcbb";
-        System.out.println(obj.lengthOfLongestSubstring(s));
+        System.out.println(LeetCode.lengthOfLongestSubstring(s));
     }
 }
