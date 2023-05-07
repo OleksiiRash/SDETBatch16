@@ -5,7 +5,7 @@ public class Task2 {
     public static void main(String[] args) {
 
 /*
-Task2:
+Task2С17:
 How would you check if String is palindrome or not? aba=> true
 Abbc => false
 */

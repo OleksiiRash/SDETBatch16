@@ -3,7 +3,7 @@ package class14.homework_class14;
 public class Task2 {
 
 /*
-Task2:
+Task2С17:
 Create a method createEmail().
 Based on values of users firstName, lastName and email type,
 your method should return complete email Address.
