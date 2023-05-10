@@ -65,9 +65,9 @@ class ChemistryTeacher extends Teacher {
         this.hasLabAccess = hasLabAccess;
     }
 
-    public void printInfoChemistryTeacher() {
-        System.out.println("Teacher " + this.name + " " + this.age + " years" + ". Subject is " + this.subject);
-    }
+    public void printInfoChemistryTeacher(){
+        super.printInfoTeacher();
+    };
 
     public void conductExperiment() {
         if (this.hasLabAccess) {
@@ -88,7 +88,7 @@ class PianoTeacher extends Teacher {
     }
 
     public void printInfoPianoTeacher() {
-        System.out.println("Teacher " + this.name + " " + this.age + " years" + ". Subject is " + this.subject);
+        super.printInfoTeacher();
     }
 
     public void Music() {
