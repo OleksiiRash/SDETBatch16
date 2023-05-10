@@ -5,6 +5,7 @@ static keyword:
     when we use it with methods those methods become static methods.
 
 static variables:
+
     static variables can be accessed in all type of methods(instance,static). They
     can also be accessed in multiple objects of a class.
 
@@ -12,6 +13,7 @@ static methods:
 
     static methods will have same behaviour across all the instances of a class because
     no instance fields are allowed inside the static methods.
+
 Note:
 
     1) !!! We can call the methods by just writing their name if we are in the same class.
