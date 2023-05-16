@@ -9,7 +9,7 @@ Class 'Degree' has 2 subclasses namely 'Bachelors' and Masters’. In Masters cl
 Call the method by creating an object of each of the three classes.
 */
 
-    public void getPrerequisite() {
+    void getPrerequisite() {
         System.out.println("To get a degree you need high school diploma");
     }
 }
@@ -17,7 +17,7 @@ Call the method by creating an object of each of the three classes.
     class Bachelors extends Degree {
 
         @Override
-        public void getPrerequisite() {
+        void getPrerequisite() {
             System.out.println("To get a degree you need Bachelors diploma");
         }
 
@@ -25,7 +25,7 @@ Call the method by creating an object of each of the three classes.
 
     class Masters extends Degree {
         @Override
-        public void getPrerequisite() {
+        void getPrerequisite() {
             System.out.println("To get a degree you need Masters diploma");
         }
     }

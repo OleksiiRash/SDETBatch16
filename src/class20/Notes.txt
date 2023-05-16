@@ -1,17 +1,3 @@
-Method overloading:
-    1) Can we overload private methods?
-    Yes
-    2) Can we Overload the static methods?
-    Yes
-    3) Can we overload the main method?
-    Yes
-    4) Can we overload a method by changing its return type?
-
-===============================================================
-Create 3 animal classes (Dog, Cat, Horse) create 3 methods in each class. create
-3 fields and constructors as well in each class. Create the object of all 3 classes
-and call 2 methods from each class. Yuo must use inheritance to avoid code duplication
-
 Method Overriding:
 
     it's when a subclass has the exact same method as parent method but a different
@@ -28,3 +14,5 @@ Rules:
     2) private methods can't be overridden.
     3) We can't override constructors.
     4) static methods
+
+Note: Without Inheritance method overriding is not possible!

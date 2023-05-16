@@ -15,4 +15,12 @@ Why should we Overload?
 
     3) We don't have to memorize a lot of method names if we are performing the same operation.
 
+Method Overloading:
 
+    1) Can we overload private methods?
+    Yes
+    2) Can we Overload the static methods?
+    Yes
+    3) Can we overload the main method?
+    Yes
+    4) Can we overload a method by changing its return type?
