@@ -1,0 +1,16 @@
+Polymorphism is a fundamental concept in object-oriented programming (OOP)
+that allows objects of different classes to be treated as objects of a
+common superclass. It allows a single interface or method to be
+implemented by multiple classes in different ways.
+This concept enables flexibility, code reusability,
+and enhances the maintainability of the codebase.
+
+In Java, polymorphism is typically achieved through method overriding and method overloading.
+Let's explore each of these with examples:
+
+Method Overriding:
+Method overriding occurs when a subclass provides its own implementation
+of a method that is already defined in its superclass. The method in
+the subclass must have the same name, return type, and parameter list
+as the method in the superclass.
+
