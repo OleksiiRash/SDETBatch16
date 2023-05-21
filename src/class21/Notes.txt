@@ -14,3 +14,8 @@ of a method that is already defined in its superclass. The method in
 the subclass must have the same name, return type, and parameter list
 as the method in the superclass.
 
+instanceof - simply check do the class belong to the parent class or not, so we can use it with if condition to check before class casting the object
+
+final keywords mean that we can add it to the method or data type to finalize them in order not override it!
+We can use final keyword for all if we don`t whant to inherit or overload, override, or anything else.
+

@@ -83,27 +83,6 @@ class SchoolStudent extends Student {
         System.out.println("School Students usually sleep around 10 hours");
     }
 
-
-    public static void main(String[] args) {
-
-        Student[] students = {
-                new SyntaxStudent("Alex", 33, 'A'),
-                new CollegeStudent("Mark", 31, 'B'),
-                new SchoolStudent("Olena", 31, 'C'),
-        };
-
-        for (Student student : students) {
-            student.printInfo();
-            student.studyLanguage();
-            student.sleep();
-        };
-
-        Student student1 = new SyntaxStudent("Alex", 33, 'A');
-        SyntaxStudent s = (SyntaxStudent) student1;
-        s.extraClasses();
-        //((SyntaxStudent) student1).extraClasses();
-
-    }
 }
 
 
