@@ -1,6 +1,8 @@
 Polymorphism is a fundamental concept in object-oriented programming (OOP)
 that allows objects of different classes to be treated as objects of a
-common superclass. It allows a single interface or method to be
+common superclass.
+
+It allows a single interface or method to be
 implemented by multiple classes in different ways.
 This concept enables flexibility, code reusability,
 and enhances the maintainability of the codebase.
@@ -17,5 +19,5 @@ as the method in the superclass.
 instanceof - simply check do the class belong to the parent class or not, so we can use it with if condition to check before class casting the object
 
 final keywords mean that we can add it to the method or data type to finalize them in order not override it!
-We can use final keyword for all if we don`t whant to inherit or overload, override, or anything else.
+We can use final keyword for all if we don`t want to inherit or overload, override, or anything else.
 
