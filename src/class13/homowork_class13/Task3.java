@@ -5,7 +5,7 @@ public class Task3 {
     public static void main(String[] args) {
 
 /*
-Task3:
+Task3_CountNofWords:
 How would you swap 2 strings without a temporary variable?
  */
 

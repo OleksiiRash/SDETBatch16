@@ -3,7 +3,7 @@ package class14.homework_class14;
 public class Student {
 
 /*
-Task4:
+Task4_CheckAnagrams:
 Create class Student that will have a method getGrade.
 Your method should accept the score of a student and return a grade:
 

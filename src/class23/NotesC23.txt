@@ -1,0 +1,67 @@
+Interfaces:
+
+Interfaces are like contracts. Which guides us to create methods in a class.
+we implement interfaces. They contain public static final variables and by default
+methods are abstract.
+
+Why we should use interfaces:
+
+we should use interfaces so that everyone knows which methods needs to be built.
+
+Syntax:
+
+interface Interface1{
+}
+
+Some rules:
+
+by default interface consider the abstract class and abstract methods
+everything in the interface by default is public, static and final
+all variables in the interface should be initialized
+constructors not allowed in the interface
+class can have as many interfaces as it needed
+if some calls extends(implements) several interfaces we need to add in this class all
+methods that belongs to all those interfaces
+
+WebDriver in Selenium it is interface where we set-upped all rules and methods for calling them in their
+pre modified way.
+
+via the interface we can achieve the multiply inheritance that is not supported by classes.
+buy default all methods and classes inside the interface are public
+we can use extends (inheritance concept) in the interfaces
+private access modifier not allowed
+static methods is not allowed in the interface because it can be override
+
+we can as well inside the interface implement the static methods but full method not abstract:
+
+static void sell(){System.out.println("Hello static method inside the Interface");}
+
+in order to call this method directly via the Interface name
+-----------------------------------------------------------------
+Encapsulation:
+
+all instance fields should be private
+
+In Java, the "getter" method, also known as an accessor method,
+is a convention used to retrieve the value of an instance variable (also called a field) within a class.
+It follows a naming convention of starting with the prefix "get" followed by
+the variable name with the first letter capitalized.
+
+The purpose of a getter method is to provide controlled access to the private data members of a class.
+By encapsulating the fields and exposing them through getter methods,
+you can enforce data encapsulation and maintain proper encapsulation boundaries.
+
+set-upped the getter (get+) and setter methods (set+)
+
+By using a setter method, you can control how the variable is modified and ensure that any necessary
+checks or operations are performed, maintaining the integrity of the object's state.
+
+Additionally, using setter methods helps with encapsulation, as it allows the class
+to hide its internal implementation details while providing a consistent interface for interacting with its properties.
+-------------------------------------------------------------------
+Arrays are fixed with size - we must enter the size
+
+ArrayList Syntax:
+
+ArrayList <String> obj = new ArrayList<>(50); // in the last brackets we can specify the amount of the elements
+

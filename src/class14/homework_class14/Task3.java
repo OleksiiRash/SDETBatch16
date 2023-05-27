@@ -3,7 +3,7 @@ package class14.homework_class14;
 public class Task3 {
 
 /*
-Task3:
+Task3_CountNofWords:
 Write a method to return whether given number is prime or not?
 */
 
