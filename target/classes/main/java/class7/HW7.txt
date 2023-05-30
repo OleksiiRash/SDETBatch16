@@ -1,0 +1,5 @@
+Task 1: Print numbers from 1 to 100 in 1 line with space
+Task 2: Print numbers from 100 to 1
+Task 3: Print even numbers from 20 to 1 (2 ways)
+Task 4: Print odd numbers between 20 and 50 (2 ways)
+

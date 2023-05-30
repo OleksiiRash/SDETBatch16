@@ -1,0 +1,44 @@
+Long Definition:
+
+In Java, an abstract class is a class that cannot be instantiated on its own and is meant to be subclassed.
+It serves as a blueprint for other classes and provides a common interface or behavior that its subclasses must implement.
+An abstract class may contain abstract methods, which are declared without an implementation and must be defined in its concrete subclasses.
+Additionally, abstract classes can have non-abstract methods with a defined implementation.
+By marking a class as abstract, you indicate that it is meant to be extended and should not be instantiated directly.
+
+Short definition:
+
+Abstraction is a process of hiding the
+implementation details and showing only
+functionality to the user.
+
+Means that something is not complete, wait to be complete etc.
+
+Abstract class restrict anybody to create an object of that class
+once you have the abstract methods you need to have the abstract class as well!
+
+We can make the child class abstract as well but in this case we will not have
+possibility to have the object of the child class.
+
+We can have some abstract methods and some not if we feel that some methods
+will be full represent in the parent class.
+
+We can have all (variables, constructor etc.) in the class expect
+create the object of the class
+
+-------------------------
+Interface forced us to write the methods and logic in a exact way as it was defined!
+-------------------------
+in Selenium important to revise those Java concepts:
+
+if else
+loops Nested loop
+break keyword
+classes and objects
+String class
+types of variables
+Methods
+abstraction
+polymorphism
+interfaces
+

@@ -1,0 +1,82 @@
+class:
+
+A class is a template or a blueprint out of which objects are created.
+
+Why should we use classes:
+    1) They help us organize our code.
+    2) Represent real life entities in code.
+    3) Classes help us reuse code.
+
+Syntax
+
+class ClassName{
+define field/properties/attributes here
+define methods here
+
+String:
+is immutable and creates a new object every time you modify it, which can be inefficient for large or complex strings.
+
+Use it when you need an immutable sequence of characters.
+This is useful when you need to store and manipulate text that won't change, such as a name, address, or phone number.
+--------------------------------------
+StringBuilder:
+is mutable and more efficient than String for making many modifications, but is not thread-safe.
+
+Example:
+
+Use it when you need to concatenate many strings together.
+StringBuilder is more efficient than concatenating strings using the + operator because it avoids creating intermediate String objects.
+
+StringBuilder sb = new StringBuilder();
+sb.append("The quick brown fox ");
+sb.append("jumps over ");
+sb.append("the lazy dog.");
+String sentence = sb.toString();
+--------------------------------------
+StringBuffer:
+is also mutable and designed for multi-threaded environments, but is generally less efficient than StringBuilder.
+
+Example:
+
+Use StringBuffer instead of StringBuilder in multithreaded applications, where multiple threads may modify the same string concurrently.
+Unlike StringBuilder, StringBuffer is synchronized, which means that it is thread-safe but may be slower in single-threaded contexts.
+
+StringBuffer sb = new StringBuffer();
+sb.append("The quick brown fox ");
+sb.append("jumps over ");
+sb.append("the lazy dog.");
+String sentence = sb.toString(); // "The quick brown fox jumps over the lazy dog."
+
+Important:
+
+It's worth noting that the performance differences between String, StringBuilder,
+and StringBuffer may not be significant for small strings or applications with low concurrency.
+However, for larger strings or applications with high concurrency,
+using the appropriate class can help improve performance and avoid synchronization issues.
+--------------------------------------------------
+String s = new String("Java"); // String object
+String m = "Java"; // String
+
+Main differences is comparison capabilities:
+Comparing strings using the == operator: In Java, the == operator compares object references,
+not the contents of the objects themselves.
+So if you create two String objects using string literals like "Java",
+they may or may not refer to the same object in memory,
+depending on whether an identical string already exists in the String pool.
+On the other hand, if you create two String objects using new String("Java"),
+they will always be separate objects, so you can compare them using ==
+
+String s1 = new String("Java");
+String s2 = new String("Java");
+String m1 = "Java";
+String m2 = "Java";
+
+System.out.println(s1 == s2); // false
+System.out.println(m1 == m2); // true
+----------------------------------------
+.reverse() - we have this method only in String Builder class.
+.toString() - method that allow us to convert stringBuilder method to the basic string.
+
+(String word)" is the method's parameter declaration, which specifies the input to the "printWord" method.
+void printWord(String word) - method that we can use to repeat the code in the main Class.
+void printWordManyTimes(String word, int number) - we can specify the amount of numbers to execute it.

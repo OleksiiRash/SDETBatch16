@@ -1,0 +1,66 @@
+Most important concepts for coding test:
+1) if else
+2) loops
+3) arrays
+4) String class
+
+Class:
+
+A class is a user defined blueprint from which objects are created.
+Class is template for creating different objects which defines its features and behaviours.
+
+In order to create an object you need a class!
+
+A class contains:
+
+● variables
+● methods
+● constructors
+etc.
+
+You can have multiple objects for the same class.
+
+A class in Java can contain:
+
+● variables
+● methods
+● constructors
+● blocks
+● nested class and interface
+
+Methods from the ==String Class==:
+
+.length()
+.toLowerCase() & .toUpperCase()
+.concat()
+.isEmpty() & .isBlank() - more accurate method to use. // boolean
+.equals() - more strict & .equalsIgnoreCase() - we use this if we don`t have strict rules or requirements // boolean
+.trim() - we can to remove space before and after the value in order to fix the empty spaces.
+.startsWith() - check the value start from needed value or not. // boolean
+.sentence.trim().toLowerCase() - method chaining, possible in the String Class
+.endsWith() // boolean
+.contains() // boolean
+.charAt() - we can perform many operation to count the letters or any other things in the value
+.indexOf('a') & .indexOf('a', 4)) - the last one is start from index 4 to check the 'a'
+----------------------------------------------
+.substring(4) - if we need to specify the value of the String from something till the end we can use one starting index only
+.substring(4, 11) - if we need extract from and to we need to specify 2 indexes
+----------------------------------------------
+.replace() & .replaceAll() - we use when we need to replace some special patterns using the regex.
+----------------------------------------------
+.split() - we use this method if we need to split the text using some regex + we usually need to store data in the array if we need to count them by indexes
+----------------------------------------------
+.valueOf() - usefully method if we need to send the value of int for example to a String, convert to a string to perform some operations
+ --------------------------------------
+.toString() - we can use if we need to combine all elements in one String and reconvert from Stringbuilder to the String again
+
+Example:
+
+StringBuilder sb = new StringBuilder();
+sb.append("The quick brown fox ");
+sb.append("jumps over ");
+sb.append("the lazy dog.");
+
+String sentence = sb.toString(); - method that allow us to convert stringBuilder method to the basic string.
+--------------------------------------
+.reverse() - we have this method only in String Builder class
