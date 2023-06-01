@@ -7,7 +7,7 @@ import java.util.TreeMap;
 public class Task1_PersonTester {
     public static void main(String[] args) {
 
-        TreeMap<Integer, Task1_Person> person = new TreeMap<>();
+        var person = new TreeMap<>();
         person.put(3, new Task1_Person("Mark", "Owen", 32, 100000));
         person.put(1, new Task1_Person("Lacy", "Smith", 31, 120000));
         person.put(4, new Task1_Person("Kevin", "Onil", 34, 150000));
