@@ -1,0 +1,22 @@
+Task 3:
+
+Create a Person class with following private fields: name, lastName, age, salary.
+Variables should be initialized through constructor.
+Inside the class also create a method to print user details.
+
+In Test Class create a Map that will store key in ascending order. In that map store personId and a Person Object. Print each object details.
+
+Task 2:
+
+Create a Map that will store Employee name and salary. Write a logic to retrieve an employee who gets the highest salary. Output should be in the below format
+John Smith=$100000
+
+Task 3:
+
+Create the collection that will store single uniques Objects of a String type in which order is preserved.
+Write a logic to concatenate all string from the collection.
+
+Task 4:
+
+Create a collection of integers in which you can keep duplicates.
+Write a logic to find sum of all integers
