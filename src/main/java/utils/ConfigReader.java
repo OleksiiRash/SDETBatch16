@@ -7,17 +7,17 @@ import java.util.Properties;
 public class ConfigReader {
 
     public static Properties getProperties(String path) throws IOException {
-        FileInputStream fileInputStream = new FileInputStream(path);
-        Properties properties = new Properties();
-        properties.load(fileInputStream);
+        var fis = new FileInputStream(path);
+        var properties = new Properties();
+        properties.load(fis);
         return properties;
 
     }
 
     public static String getProperty(String key) throws IOException {
-        Properties properties = getProperties(Constants.ConfigReaderPath);
-        String value = properties.getProperty(key);
-        return value;
+        var properties = getProperties(Constants.CONFIG_READER_PATH);
+        return properties.getProperty(key);
     }
 
 }
+
