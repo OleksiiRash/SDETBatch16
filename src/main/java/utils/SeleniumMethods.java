@@ -39,7 +39,7 @@ public class SeleniumMethods {
         driver.manage().window().maximize();
         // navigate to url
         driver.get(url);
-        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(20));
+        driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
     }
 
     public static void closeBrowser() {
@@ -48,6 +48,7 @@ public class SeleniumMethods {
         }
     }
 
+    // method to send the keys to the input form
     public static void sendText(String text, WebElement element) {
         element.clear();
         element.sendKeys(text);
@@ -57,7 +58,7 @@ public class SeleniumMethods {
     public static void dropDownSelect(WebElement element, String byVisibleText) {
         var object = new Select(element);
         object.selectByVisibleText(byVisibleText);
-        System.out.println("DropDown selected Element is: " + byVisibleText);
+        //System.out.println("DropDown selected Element is: " + byVisibleText);
     }
 
 

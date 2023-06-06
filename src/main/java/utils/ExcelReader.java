@@ -18,10 +18,10 @@ public class ExcelReader {
         try {
             fileInputStream = new FileInputStream(path);
             // that special call which knows how to read the data from Excel files
-            XSSFWorkbook xssfWorkbook = new XSSFWorkbook(fileInputStream);
+            var xssfWorkbook = new XSSFWorkbook(fileInputStream);
             Sheet sheet = xssfWorkbook.getSheet(sheetName);
 
-            Row headerRow = sheet.getRow(0);
+            var headerRow = sheet.getRow(0);
             for (int rows = 1; rows < sheet.getPhysicalNumberOfRows(); rows++) {
                 Row row = sheet.getRow(rows);
 
