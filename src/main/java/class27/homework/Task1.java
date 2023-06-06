@@ -31,7 +31,7 @@ public class Task1 extends SeleniumMethods {
         driver.findElement(By.xpath("//b[normalize-space()='PIM']")).click();
 
 
-        List<Map<String, String>> addEmployeeData = ExcelReader.read("BasicData", Constants.HRMS_DATA_FILE);
+        var addEmployeeData = ExcelReader.read("BasicData", Constants.HRMS_DATA_FILE);
 
         for (var add : addEmployeeData) {
             var addEmployee = driver.findElement(By.xpath("//a[@id='menu_pim_addEmployee']"));
@@ -46,11 +46,12 @@ public class Task1 extends SeleniumMethods {
             sendText(middleName, driver.findElement(By.xpath("//input[@id='middleName']")));
             sendText(lastName, driver.findElement(By.xpath("//input[@id='lastName']")));
             sendText(id, driver.findElement(By.xpath("//input[@id='employeeId']")));
+            Thread.sleep(2000);
             driver.findElement(By.xpath("//input[@id='btnSave']")).click();
         }
 
 
-        List<Map<String, String>> searchEmployeeData = ExcelReader.read("FullData", Constants.HRMS_DATA_FILE);
+        var searchEmployeeData = ExcelReader.read("FullData", Constants.HRMS_DATA_FILE);
 
         for (var search : searchEmployeeData) {
             driver.findElement(By.xpath("//a[@id='menu_pim_viewEmployeeList']")).click();
@@ -79,7 +80,7 @@ public class Task1 extends SeleniumMethods {
             dropDownSelect(marriedDroDown, maritalStatusRefresh);
 
             sendText(nickNameRefresh, driver.findElement(By.xpath("//input[@id='personal_txtEmpNickName']")));
-
+            Thread.sleep(2000);
             driver.findElement(By.xpath("//input[@id='btnSave']")).click();
 
             var editBtn = driver.findElement(By.xpath("//input[@value='Edit']"));
@@ -89,7 +90,7 @@ public class Task1 extends SeleniumMethods {
 
         }
 
-        List<Map<String, String>> deleteEmployeeData = ExcelReader.read("FullData", Constants.HRMS_DATA_FILE);
+        var deleteEmployeeData = ExcelReader.read("FullData", Constants.HRMS_DATA_FILE);
 
         for (var delete : deleteEmployeeData) {
             driver.findElement(By.xpath("//a[@id='menu_pim_viewEmployeeList']")).click();
