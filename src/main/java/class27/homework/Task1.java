@@ -10,8 +10,6 @@ import utils.SeleniumMethods;
 
 import java.io.IOException;
 import java.time.Duration;
-import java.util.List;
-import java.util.Map;
 
 public class Task1 extends SeleniumMethods {
     public static void main(String[] args) throws IOException, InterruptedException {
@@ -46,7 +44,7 @@ public class Task1 extends SeleniumMethods {
             sendText(middleName, driver.findElement(By.xpath("//input[@id='middleName']")));
             sendText(lastName, driver.findElement(By.xpath("//input[@id='lastName']")));
             sendText(id, driver.findElement(By.xpath("//input[@id='employeeId']")));
-            Thread.sleep(2000);
+            Thread.sleep(4000);
             driver.findElement(By.xpath("//input[@id='btnSave']")).click();
         }
 
@@ -82,7 +80,7 @@ public class Task1 extends SeleniumMethods {
             sendText(nickNameRefresh, driver.findElement(By.xpath("//input[@id='personal_txtEmpNickName']")));
             Thread.sleep(2000);
             driver.findElement(By.xpath("//input[@id='btnSave']")).click();
-
+            Thread.sleep(2000);
             var editBtn = driver.findElement(By.xpath("//input[@value='Edit']"));
             var waitSearchBtn = new WebDriverWait(driver, Duration.ofSeconds(20));
             waitSearchBtn.until(ExpectedConditions.visibilityOf(editBtn));
@@ -102,6 +100,8 @@ public class Task1 extends SeleniumMethods {
             driver.findElement(By.xpath("//input[@name='btnDelete']")).click();
             driver.findElement(By.xpath("//input[@id='dialogDeleteBtn'][@value='Ok']")).click();
         }
+
+        closeBrowser();
 
 
     }

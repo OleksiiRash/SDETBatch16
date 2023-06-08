@@ -28,7 +28,7 @@ public class E6ExcelSelenium extends SeleniumMethods {
         login.click();
 
 
-        List<Map<String, String>> excel = ExcelReader.read("Лист1", Constants.EXCEL_FILE_PATH);
+        List<Map<String, String>> excel = ExcelReader.read("Sheet1", Constants.EXCEL_FILE_PATH);
         for (var map : excel) {
             driver.findElement(By.xpath("//b[normalize-space()='PIM']")).click();
             driver.findElement(By.xpath("  //a[@id='menu_pim_addEmployee']")).click();

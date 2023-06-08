@@ -14,7 +14,7 @@ public class E4ExcelReader {
         var fis = new FileInputStream(Constants.EXCEL_FILE_PATH);
         // that special call which knows how to read the data from Excel files only
         XSSFWorkbook xssfWorkbook = new XSSFWorkbook(fis);
-        var sheet = xssfWorkbook.getSheet("Лист1");
+        var sheet = xssfWorkbook.getSheet("Sheet1");
 
         for (int i = 0; i < sheet.getPhysicalNumberOfRows(); i++) {
             Row row = sheet.getRow(i);

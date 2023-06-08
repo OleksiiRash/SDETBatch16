@@ -15,7 +15,7 @@ public class E5ExcelReader {
 
         FileInputStream fileInputStream = new FileInputStream(Constants.EXCEL_FILE_PATH);
         XSSFWorkbook xssfWorkbook = new XSSFWorkbook(fileInputStream);
-        Sheet sheet = xssfWorkbook.getSheet("Лист1");
+        Sheet sheet = xssfWorkbook.getSheet("Sheet1");
 
         List<Map<String, String>> excelData = new ArrayList<>();
         Row headerRow = sheet.getRow(0);

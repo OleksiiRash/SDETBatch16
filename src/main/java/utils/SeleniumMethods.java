@@ -59,6 +59,8 @@ public class SeleniumMethods {
         var object = new Select(element);
         object.selectByVisibleText(byVisibleText);
         //System.out.println("DropDown selected Element is: " + byVisibleText);
+
+
     }
 
 
